@@ -1,6 +1,6 @@
 generator client {
   provider        = "prisma-client"
-  binaryTargets   = ["native", "debian-openssl-3.0.x"]
+  previewFeatures = ["queryCompiler", "driverAdapters"]
   relationMode    = "prisma"
   output          = "../src/generated/prisma"
 }
